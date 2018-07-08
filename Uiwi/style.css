@@ -564,13 +564,14 @@ img {
       left: 50%;
       -webkit-transform: translateX(-50%);
       transform: translateX(-50%);
-      position: absolute;
       z-index: 5;
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms; }
+
     .mainMenu .nav-link:hover::after, .mainMenu .nav-link:focus::after {
       width: 70px;
       background-color: white; }
+
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .mainMenu {
       padding: 30px 15px; } }
